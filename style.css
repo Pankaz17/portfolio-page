@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 1500px;
+    width: 1000px;
+    background-color: black;
+}
+.nav{
+    height: 50px;
+    width: 1351px;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    float: left;
+}
+.nav-logo{
+    height: 50px;
+    width: 240px;
+    font-size: 30px;
+    margin-left: 100px;
+    font-family: Abril Fatface;
+}
+.nav-list{
+    height: 10px;
+    width: 50px;
+    margin-left: 250px;
+}
+.nav-list ul{
+    display: flex;
+    float: left;
+    list-style: none;
+}
+.nav-list ul li{
+    font-size: 25px;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+.nav-list ul li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.nav-list ul li a:hover{
+    color: #cfc7b4;
+}
+.nav-button{
+    height: 30px;
+    width: 140px;
+    background-color: #dba716;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 50px;
+    margin-left: 500px;
+}
+.nav-button a{
+    margin-left: 5px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.nav-button a:hover{
+    color: #1a1357;
+}
+.body-section{
+    margin-left: 100px;
+    padding-top: 200px;
+    font-family: Bacasime Antique;
+}
+.body-heading{
+    height: 50px;
+    width: 650px;
+    color: white;
+    font-size: 60px;
+}
+.par-section{
+    height: 50px;
+    width: 650px;
+    padding-top: 100px;
+    color: #d5d8de;
+    font-size: 20px;
+}
+.logo-section{
+    height: 50px;
+    width: 1000px;
+    padding-top: 130px;
+    margin-left: 100px;
+    display: flex;
+}
+.morgan,.visa,.tinder,.samsung,.verzion{
+    margin-left: 110px;
+}
+.photo-section{
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    float: left;
+}
+.image1-titel{
+    height: 20px;
+    width: 100px;
+    font-size: 50px;
+    color: white;
+}
+.image1-titel p{
+    height: 100px;
+    width: 600px;
+    font-size: 17px;
+    color: #9e9b9b;
+    font-family: 'Poppins', sans-serif
+}
+.image2{
+    /* width: 500px; */
+    margin-left:100px;
+}
+.image2-titel{
+    height: 20px;
+    width: 100px;
+    font-size: 50px;
+    color: white;
+}
+.image2-titel p{
+    height: 100px;
+    width: 600px;
+    font-size: 17px;
+    color: #9e9b9b;
+    font-family: 'Poppins', sans-serif
+}
+.image2{
+    /* width: 500px; */
+    margin-left:100px;
+}
+.secondlast-section{
+    height: 450px;
+    width: 1350px;
+    margin-top: 200px;
+    background-color: #3b3b40;
+    display: flex;
+    float: left;
+}
+.left-section{
+    height: 100px;
+    width: 600px;
+    margin-left: 100px;
+    padding-top: 50px;
+    font-size: 32px;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+}
+.left-section p{
+  
+    font-size: 17px;
+    color: #9e9b9b;
+    font-family: 'Poppins', sans-serif
+}
+.right-section{
+    height: 100px;
+    width: 600px;
+    margin-left: 100px;
+    padding-top: 50px;
+    font-size: 32px;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+}
+.right-section p{
+  
+    font-size: 17px;
+    color: #9e9b9b;
+    font-family: 'Poppins', sans-serif
+}
+.last-section{
+    height: 300px;
+    width: 1350px;
+    margin-top: 1050px;
+    background-color: black;
+}
+.last-section-heading{
+    padding-top: 50px;
+    margin-left: 100px;
+    color: white;
+    font-size: 32px;
+    font-family: 'Prata', serif;
+}
+.par p{
+    margin-left: 100px;
+    height: 50px;
+    width: 500px;
+    color: #9e9b9b;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+
+}
+.last-section-button{
+    height: 30px;
+    width: 140px;
+    background-color: #dba716;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.last-section-button a{
+    height: 30px;
+    width: 140px;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.last-section-button a:hover{
+    color: red;
+}
+.footer-section{
+    height: 50px;
+    width: 1350px;
+    display: flex;
+    float: left;
+    background-color: #3b3b40;
+
+
+}
+.button-logo{
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 20px;
+    color: white;
+
+}
+.footer-section-logo{
+    margin-top: 10px;
+    margin-left: 900px;
+    display: flex;
+    float: left;
+}
+.twit,.linked,.git{
+    margin-left: 15px;
+}
